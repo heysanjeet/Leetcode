@@ -6,7 +6,7 @@ class Solution {
             int nextDigit=i+1;
             
             while(num <=high && nextDigit<=9){
-                num=num * 10 + nextDigit;
+                num=num * 10 + nextDigit;//gererate the number
                 if(low<=num && num <=high){
                     result.add(num);
                 }

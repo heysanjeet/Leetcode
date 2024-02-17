@@ -1,5 +1,5 @@
 class Solution {
-    //time O(n) | space O(1)
+    //time O(n) | space O(n)
     public boolean containsDuplicate(int[] nums) {
       Set<Integer> numsSet=new HashSet<>();
       for(int i=0;i<nums.length;i++){

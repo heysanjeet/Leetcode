@@ -15,7 +15,6 @@ class Solution {
                 end--;
             }
         }
-        System.gc();
         return result;
     }
     
